@@ -1,0 +1,7 @@
+import SierksmaLean.Theorems.Thm_Sierksma_generic_witness_g1
+import SierksmaLean.Theorems.Thm_Sierksma_generic_witness_g4
+import SierksmaLean.Theorems.Thm_Sierksma_generic_witness_sign
+set_option autoImplicit false
+open Sierksma
+theorem proof_Sierksma_generic_witness_exact : GenericWitnessExact :=
+  ⟨Sierksma.generic_witness_g1, Sierksma.generic_witness_g4, Sierksma.generic_witness_sign⟩

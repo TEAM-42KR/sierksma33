@@ -1,0 +1,10 @@
+modules built (lines '[k/n] Built'): 3683
+error lines: 0
+'declaration uses sorry' warnings: 1
+warning: Challenge.lean:10:8: declaration uses `sorry`
+axiom check output:
+info: Audit.lean:43:0: AUDIT axioms SierksmaLean.main_theorem: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:43:0: AUDIT axioms SierksmaLean.sierksma_three_three: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:43:0: AUDIT axioms sierksma_three_three: [propext, Classical.choice, Quot.sound]
+info: Audit.lean:43:0: AUDIT placeholders (0): []
+last line: Build completed successfully (12392 jobs).

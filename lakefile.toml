@@ -1,0 +1,21 @@
+name = "SierksmaLean"
+version = "1.0.0"
+defaultTargets = ["SierksmaLean", "Challenge", "Solution", "Audit"]
+# No [leanOptions]: every module is elaborated with the Lean defaults.
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4"
+rev = "v4.33.1"
+
+[[lean_lib]]
+name = "SierksmaLean"
+
+[[lean_lib]]
+name = "Challenge"
+
+[[lean_lib]]
+name = "Solution"
+
+[[lean_lib]]
+name = "Audit"

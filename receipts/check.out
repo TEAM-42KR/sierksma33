@@ -1,0 +1,4 @@
+SierksmaLean.main_theorem : SierksmaLean.MainStatement
+SierksmaLean.sierksma_three_three : SierksmaLean.PublicStatement
+'SierksmaLean.main_theorem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'SierksmaLean.sierksma_three_three' depends on axioms: [propext, Classical.choice, Quot.sound]
